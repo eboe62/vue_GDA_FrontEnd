@@ -4,30 +4,30 @@ export default {
   props: {
     title: {
       type: String,
-      required: true
+      required: true,
     },
 
     caption: {
       type: String,
-      default: ''
+      default: '',
     },
 
     link: {
       type: String,
-      default: '#'
+      default: '#',
     },
 
     icon: {
       type: String,
-      default: ''
+      default: '',
     },
 
     level: {
       type: String,
-      default: ''
+      default: '',
     },
 
-    children: []
-  }
-}
+    children: [],
+  },
+};
 </script>
